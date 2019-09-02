@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  m_GroupName: Characters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 579d6bb3d945b4a359953346cb71c315
+  m_SerializeEntries:
+  - m_GUID: 36e93c435d1648a4c86d516057a9cbe2
+    m_Address: Assets/Prefabs/Characters/Warrior Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ddbc89a2e5731354497399c2803d9354
+    m_Address: Assets/Prefabs/Characters/Mage Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7e6e31c5324d874db515c8ca4922190
+    m_Address: Assets/Prefabs/Characters/Archer Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d28ac6909fae64052a5a7fc0dd5c8427, type: 2}
+    - {fileID: 11400000, guid: 9a30698f69bd740648e4cee921dbe23a, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5b431dfb3b1964be7a63fd389c1daff5
+  m_SerializeEntries:
+  - m_GUID: 0ba5aef277af2b049b3ad8b089d8229a
+    m_Address: ArcherSkin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skin1
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fea9e57ec3fe24f6493302bdb799ead4, type: 2}
+    - {fileID: 11400000, guid: ba22d0495eb9a4152a6ff990fc744e82, type: 2}

@@ -17,9 +17,12 @@ public class TowerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // 异步加载所有 label 属性是 m_TowerLabel 的所有资源
+        // 加载完成后调用 OnResourcesRetrieved 函数
         Addressables.LoadAssetsAsync<GameObject>(m_TowerLabel, null).Completed += OnResourcesRetrieved;
     }
 
+    // 确认加载完成后，将灰色卡片变成彩色卡片
     private void OnResourcesRetrieved(AsyncOperationHandle<IList<GameObject>> obj)
     {
         m_Towers = obj.Result;

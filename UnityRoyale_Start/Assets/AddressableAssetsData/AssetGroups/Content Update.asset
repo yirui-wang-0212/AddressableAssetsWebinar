@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Content Update
+  m_EditorClassIdentifier: 
+  m_GroupName: Content Update
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8106dfb4127e748bf82f373bd6105cae
+  m_SerializeEntries:
+  - m_GUID: b7842051f5107fd4abf48ce27e2e5009
+    m_Address: ArcherSkin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skin2
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab404b11ddfc75b49bdd5bb43eb05388, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e093e49a7b7eb49e68471500d0eebec1, type: 2}
+    - {fileID: 11400000, guid: 4c082de0c801f40a9a37bccf32ffb9b6, type: 2}

@@ -17,3 +17,7 @@ MonoBehaviour:
     Results: []
   - RuleName: Check Scene to Addressable Duplicate Dependencies
     Results: []
+  - RuleName: Check Resources to Addressable Duplicate Dependencies
+    Results: []
+  - RuleName: Build Bundle Layout
+    Results: []
