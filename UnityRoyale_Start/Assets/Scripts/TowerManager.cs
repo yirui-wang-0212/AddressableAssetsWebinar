@@ -40,6 +40,7 @@ public class TowerManager : MonoBehaviour
         {
             Vector3 position = Random.insideUnitSphere * 5;
             position.Set(position.x, 0, position.z);
+            // 实例化塔
             Instantiate(m_Towers[index], position, Quaternion.identity, null);
         }
     }

@@ -55,6 +55,8 @@
 
 ![2](PicForMD/2.png)
 
+
+
 #### 本地 / 远端打包设置
 
 可以生成许多不同的设置：测试服、正式服、VIP服等等
@@ -144,11 +146,24 @@ Textures - ContentUpdateGroupSchema - Static Content：[x]
 
    ![11](PicForMD/11.png)
 
+
+
 #### 一些观念
 
 - Addressable 不是只有加载或是实例化，你可以查询该物件在哪里。
-- 系统会帮你处理关联性：将一整个 Scene，把它标记为 Addressable Assets。Initiate 或 Load 这个 Scene 时，把整个 Scene 加载进来。会把 Scene 中的很多 Assets，会把这些 Assets 里的相对关系、关联性找出来，从全部的包体里加载与这个 Scene 相关的 Assets 。
-- Build Script 可以让你自己写打包流程
-- Addressables 是基于 Asset Bundle 架构做的高阶流程。
+- 系统会帮你处理关联性：将一整个 Scene，把它标记为 Addressable Assets。Initiate 或 Load 这个 Scene 时，把整个 Scene 加载进来。会把 Scene 中的很多 Assets，会把这些 Assets 里的相对关系、关联性找出来，从全部的包体里加载与这个 Scene 相关的 Assets 。（查看项目 MainMenu 场景的 SceneManager 。）
+- Build Script 可以让你自己写打包流程：换成自己的打包流程、命名规则、额外处理。默认情况下用LZ4压缩算法，可以自己额外做处理。
+- Addressables 是基于 Asset Bundle 架构做的高阶流程。依然是 Web Request 流程，更安全、更高阶。
 - 未来会朝向以 Addresaables 为主
+
+
+
+#### 旧系统如何转移
+
+- **直接转移**
+  - public GameObject XXX 改为 public AssetReference XXX；
+  - Instantiate() 改为 AssetRefName.InstantiateAsync()；
+  - 加载用 LoadAssetAsync\<GameObject\>()
+- **Resources**
+- **Asset Bundles**
 

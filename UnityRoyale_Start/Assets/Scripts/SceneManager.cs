@@ -11,6 +11,9 @@ public class SceneManager : MonoBehaviour
 
     public void LoadGameplayScene()
     {
+        // 场景异步加载
+        // m_SceneAddressToLoad：场景名称
+        // 场景内所有的 Assets 都会被异步加载
         Addressables.LoadSceneAsync(m_SceneAddressToLoad, UnityEngine.SceneManagement.LoadSceneMode.Single).Completed += OnSceneLoaded;
     }
 
