@@ -13,6 +13,7 @@
 **TBA**
 
 ### Useful links:
+* [达哥直播：Addressable Asset System 全新资源管理流程](https://www.bilibili.com/video/av65819074?from=search&seid=2558299560706294789)
 * [Addressables Samples](https://github.com/Unity-Technologies/Addressables-Sample)
 * [Addressable Assets Manual](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/index.html)
 * [Power Point File](https://drive.google.com/file/d/18BYrm4mgurjNgvjFYOtWgRfVGG6q5E1p/view?usp=sharing)
