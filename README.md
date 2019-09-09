@@ -168,3 +168,29 @@ Textures - ContentUpdateGroupSchema - Static Content：[x]
 - **Resources**
 - **Asset Bundles**
 
+
+
+#### 资源管理相关
+
+##### Assets Bundle / Addressable Asset System
+
+- 可以从远端读取资源
+- 资源指针，热更新时修改指针所指向的资源即可
+
+##### Resources 文件夹
+
+- 可以用代码读取文件夹下的资源
+
+- 随包打出，不可写
+- 一般为较小的资源，如开机动画等
+
+##### StreamingAssets
+
+- 不随包打出，可读可写
+- 从远端读取资源后可以存入 StreamingAssets
+- 一般为较大的资源，如模型，进入游戏后下载
+
+
+
+
+
