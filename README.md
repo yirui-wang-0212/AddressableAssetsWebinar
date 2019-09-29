@@ -125,13 +125,13 @@ Textures - ContentUpdateGroupSchema - Static Content：[x]
 
 3. 显示整个包里 ArcherSkin 更改了：
 
-   ![5](PicForMD/5.png)
+   ![8](PicForMD/8.png)
 
-   ![7](PicForMD/7.png)
+   ![8](PicForMD/8.png)
 
 4. Build - Build For Content Update
 
-![9](PicForMD/9.png)
+   ![9](PicForMD/9.png)
 
 5. 告诉它原本的设置：Assets - AddressableAssetsData - OSX - addressables_content_state.bin
 
@@ -140,8 +140,8 @@ Textures - ContentUpdateGroupSchema - Static Content：[x]
    contentupdate：更新旧的 textures_assets
 
    新的 textures_assets：只有156k，用于更新。
-
-![10](PicForMD/10.png)
+   
+   ![10](PicForMD/10.png)
 
 7. 不需要重新 build，直接运行程序
 
